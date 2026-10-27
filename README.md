@@ -98,3 +98,12 @@ The `EN / العربية` switch changes `lang`, `dir`, grid direction, arrow di
 5. Connect the form endpoint, calendar link, analytics events and a privacy-approved CRM pipeline.
 6. A/B test the hero CTA: `Book a 30-min systems audit` versus `See the 100-day plan`.
 7. Instrument analytics for nav mega-menu use, 100-day plan completion, rail interaction, case clicks, FAQ opens and form completion.
+
+
+## GitHub Pages
+
+Live preview: https://sree278.github.io/applicatech-site/
+
+Repository: https://github.com/Sree278/applicatech-site
+
+Branch: `main` · Build type: `workflow`
