@@ -1,10 +1,13 @@
-# Aplica — Concept 03
-Proposed identity: Practical expertise. Clear delivery.
+# Aplica / Advanced Concept 05
+Run `python3 -m http.server 4177 --bind 0.0.0.0`.
 
-Files: index.html (homepage), services.html (representative service overview), direction.html (design rationale), styles.css, script.js, assets/fonts, DESIGN-DIRECTION.md.
+- index.html: cinematic homepage and business-scenario explorer.
+- implementation.html: representative implementation service journey.
+- case-study.html: clearly labelled blank customer-story format.
+- scene.js: original adaptive WebGL visual.
+- experience.js: homepage interactions.
+- pages.js: editorial page navigation and modal controls.
+- cinema.css: shared design system and progressive transitions.
+- DESIGN-DIRECTION.md / QA-REPORT.md: rationale, limitations and checks.
 
-Run `python3 -m http.server 4175 --bind 0.0.0.0`.
-
-See DESIGN-DIRECTION.md for the strategy, brand tokens, trade-offs, evidence limitations and approval checklist. This is a static concept, not a WordPress production implementation. The contact form validates and opens a mailto draft only.
-
-Production requires approved content, authentic photography, permitted customer evidence, legal review, SEO migration and functional backend if required. No approved new logo or exclusive market position is implied.
+Self-hosted fonts; no external runtime libraries or build step. Contact prepares an email draft only. Public site unchanged.
