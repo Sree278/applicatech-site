@@ -1,5 +1,2 @@
 User-agent: *
-Allow: /
-
-# Replace with the production canonical domain after the static preview is approved.
-Sitemap: https://aplicatech.com/sitemap.xml
+Disallow: /
