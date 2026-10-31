@@ -1,13 +1,13 @@
-# Aplica / Advanced Concept 05
-Run `python3 -m http.server 4177 --bind 0.0.0.0`.
+# Aplica — Human-led Concept 06
+A local review concept, not yet published. The existing GitHub Pages site still uses Concept 05.
 
-- index.html: cinematic homepage and business-scenario explorer.
-- implementation.html: representative implementation service journey.
-- case-study.html: clearly labelled blank customer-story format.
-- scene.js: original adaptive WebGL visual.
-- experience.js: homepage interactions.
-- pages.js: editorial page navigation and modal controls.
-- cinema.css: shared design system and progressive transitions.
-- DESIGN-DIRECTION.md / QA-REPORT.md: rationale, limitations and checks.
+Run `python3 -m http.server 4178 --bind 0.0.0.0`.
 
-Self-hosted fonts; no external runtime libraries or build step. Contact prepares an email draft only. Public site unchanged.
+## Included
+- Home: human-led editorial opening, service evaluation, evidence, optional business-scenario illustration, people-centred approach and email-draft enquiry.
+- implementation.html: detailed representative service journey.
+- case-study.html: explicitly labelled customer-story template, not an actual project.
+- Self-hosted fonts and WebP photography. No external runtime dependencies or build step.
+- Source scripts/CSS plus fingerprinted deployment copies.
+
+Illustrative stock photos do not depict Aplica personnel or clients. See IMAGE-CREDITS.md. Enquiry opens an email draft only; no backend/CRM submission. Public release requires approval.

@@ -1,37 +1,23 @@
-# Advanced prototype / QA record
+# Human-led Concept 06 / QA
 31 October 2026
 
-## Tested
-Chromium via Playwright, software WebGL. Automated axe-core checks tagged WCAG 2 A/AA and 2.1 AA.
+Chromium via Playwright; axe-core tagged WCAG 2 A/AA and 2.1 AA.
 
-- Home, implementation page and case-study template at 1440px and 390px: zero detected tagged violations on final recheck.
-- 390px reduced-motion home/scenario state: zero detected tagged violations.
-- Scenario selection: all four panels work; exactly one selected panel; End key selects final scenario.
-- Menu Escape returns focus to trigger.
-- Implementation link navigates to the real implementation page; customer-template link navigates to the real template page, with and without reduced motion.
-- No JavaScript page errors in the tested runs.
-- No horizontal page overflow at the tested desktop/mobile widths; 320px WebGL-fallback layout also checked.
-- WebGL-disabled fallback remains visible and scenario controls still work.
-- All three pages have one h1, unique IDs, valid local asset references and cross-page anchor targets.
+- All three pages at 1440px and 390px: zero detected tagged violations after surface-specific contrast fixes.
+- No JavaScript page errors or horizontal overflow in these runs.
+- Four scenario selections work; keyboard End selects the final scenario.
+- Each detail page has one h1.
+- The opening is static: no pinned scroll sequence or opacity-faded primary information.
 
-## Issues found and fixed
-- A link style reused on the dark implementation page initially failed contrast. It now has a context-appropriate light text colour.
-- Explorer canvas sizing initially did not track its content-sized container reliably. A ResizeObserver now updates rendering dimensions.
+During implementation, inherited light-on-dark text styles were identified on the newly pale surfaces. Active navigation, table cells/captions, list items, current process labels and service/template annotations were corrected before handoff.
 
-## Important limitations
-Automated checks are not complete accessibility certification. A pause control and coarse hardware adaptation exist, but no production performance target or real mobile battery/GPU result is claimed. Cross-document transition support varies by browser; ordinary navigation is the intended fallback.
+Automated checking is not full accessibility conformance. Stock rights/usage checks, actual buyer validation, broader browser/assistive-tech and real-device reviews remain outstanding. The form still prepares an email draft and does not submit to a backend. No publication is claimed for this local concept.
 
-No target-customer testing, commercial validation, approved customer story, production backend, CMS build, legal review, SEO migration, analytics or comprehensive security audit has been completed.
+## Additional final checks
+- All three pages at 320px, 768px and 1024px: no horizontal overflow; all photographs decoded successfully (lazy-loaded images explicitly activated for this check); footer is the final visible content.
+- Mobile menu and expanded implementation row: zero detected tagged violations, with normal and reduced motion.
+- Escape closes menu and returns focus to trigger.
+- Implementation → customer-story cross-page links work with normal and reduced motion.
+- Forced WebGL failure: scenario fallback visible and selected rental-panel content remains usable at 320px.
 
-## Visual refinement recheck
-After adding conceptual imagery and revising page compositions:
-- All runtime images loaded on the three pages at 1440px and 390px.
-- No horizontal overflow on those pages/viewports.
-- Home/scenario, implementation and case-template audits returned zero detected tagged A/AA violations at both widths.
-- Scenario selection and keyboard End behaviour still functioned, with no page JavaScript errors in the audit runs.
-- Image sizing was corrected to respect responsive aspect ratios rather than fixed HTML height attributes.
-
-Automated contrast tools do not fully evaluate text over imagery. Desktop hero image masking and headline wrapping were adjusted separately to keep the primary text away from bright artwork.
-
-## Footer cleanup
-Removed the design-direction dialog and its footer trigger from all three pages, including their JavaScript bindings. The single-file detail-page preview layer is positioned before the main content, not after the footer. Closed dialogs are explicitly hidden. Design rationale remains in the separate documentation.
+The motion control now lives beside the optional scenario explorer. Photographic content is static and captions are preserved in the standalone preview. No new backend or publication was performed.
